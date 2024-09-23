@@ -22,6 +22,15 @@
 
 .card {
   padding: 2em;
+  width: 1000px;
+  display: flex;
+  gap: 100px;
+  border: 1px solid white;
+  align-items: center;
+}
+
+.card > * {
+  width: 50%;
 }
 
 .read-the-docs {
@@ -30,4 +39,8 @@
 
 button {
   margin: 10px;
+}
+
+h1 {
+  margin: 0;
 }
